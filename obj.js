@@ -29,6 +29,6 @@ console.log(colors.reverse());
 
 let weekend = ["sat", "sun", "mon"];
 
-console.log(colors.concat(weekend));
+let concata = colors.concat(weekend);
 
-console.log(colors);
+console.log(concata);
