@@ -1,0 +1,46 @@
+Common Commands for Windows and Mac (Notes)
+
+Windows Command Prompt / Windows PowerShell / Mac Terminal (Bash/Zsh):
+
+dir/ls/ls – List directory contents.
+
+cd – Change directory.
+
+
+
+cd/Get-Location/pwdShow current directory
+
+mkdir – Create a new directory. Example: mkdir directory
+
+rmdir/Remove-Item/rm – Remove a directory.
+
+Example:
+
+rmdir /S /Q directory
+
+Remove-Item -Recurse directory
+
+rm -r directory
+
+
+
+copy/New-Item/touch- Create file. Example: copy nul filename.txt / New-Item -ItemType File -Name "filename.txt" / touch filename.txt
+
+echo Your content here > filename.txt / "Your content here" | Out-File -FilePath "filename.txt"
+
+/ echo Your content here > filename.txt -  Writing in a file. In mac you can also use for multiple lines: printf "Your content here\n" > filename.txt
+
+type/Get-Content/cat
+
+- View file contents. Example: type file / Get-Content file / cat file
+
+copy/Copy-Item/cp – Copy files. Example: copy source destination / Copy-Item source destination/cp source destination
+
+del/Remove-Item/rm– Delete files. Example: del file / Remove-Item file / rm file
+
+
+
+cls/Clear-Host/clear – Clear the screen.
+
+echo – Display a message or turn command echoing on or off. Example: 
+echo text / Write-Output text / echo text 
