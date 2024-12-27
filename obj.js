@@ -32,3 +32,21 @@ let weekend = ["sat", "sun", "mon"];
 let concata = colors.concat(weekend);
 
 console.log(concata);
+
+let person = {
+  name: "nassir",
+  age: 23,
+  print: function () {
+    console.log(this.name, this.age);
+  },
+};
+
+person.print();
+
+const newcar = new Object();
+(newcar.model = "MK5"), (newcar.year = 2025);
+newcar.start = function () {
+  console.log("Car Started " + this.model + this.year);
+};
+
+newcar.start();
