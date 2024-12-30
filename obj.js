@@ -43,10 +43,10 @@ let person = {
 
 person.print();
 
-const newcar = new Object();
-(newcar.model = "MK5"), (newcar.year = 2025);
-newcar.start = function () {
-  console.log("Car Started " + this.model + this.year);
-};
+// const newcar = new Object();
+// (newcar.model = "MK5"), (newcar.year = 2025);
+// newcar.start = function () {
+//   console.log("Car Started " + this.model + this.year);
+// };
 
-newcar.start();
+// newcar.start();
